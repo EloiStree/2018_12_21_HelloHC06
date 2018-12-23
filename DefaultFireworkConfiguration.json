@@ -1,1 +1,1 @@
-
+{"m_userName":"Eloi Strée","m_platformsAvailable":[{"m_name":"4 Pins","m_macId":{"m_macAddress":"98:D3:71:F9:7B:44"}},{"m_name":"10 Pins","m_macId":{"m_macAddress":"98:D3:51:F9:4A:26"}}],"m_triggerableActionsGroup":[{"m_oneWordName":"Start","m_description":"Start Firework","m_actions":[{"m_macId":{"m_macAddress":"98:D3:51:F9:4A:26"},"m_pinIndex":0,"m_relativeTime":0.0},{"m_macId":{"m_macAddress":"98:D3:51:F9:4A:26"},"m_pinIndex":9,"m_relativeTime":0.0},{"m_macId":{"m_macAddress":"98:D3:71:F9:7B:44"},"m_pinIndex":0,"m_relativeTime":5.0}]}]}
