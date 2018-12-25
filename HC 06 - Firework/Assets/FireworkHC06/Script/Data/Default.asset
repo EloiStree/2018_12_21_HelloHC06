@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c38f6d1eb26ac84aa84b5dbd851c2d3, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  m_configurationData:
+    m_userName: "Eloi Str\xE9e"
+    m_platformsAvailable:
+    - m_name: 4 Pins
+      m_macId:
+        m_macAddress: 98:D3:71:F9:7B:44
+    - m_name: 10 Pins
+      m_macId:
+        m_macAddress: 98:D3:51:F9:4A:26
+    m_triggerableActionsGroup:
+    - m_oneWordName: 10 -> 4 Border
+      m_description: Laucnh Border Rocket
+      m_actions:
+      - m_macId:
+          m_macAddress: 98:D3:51:F9:4A:26
+        m_pinIndex: 0
+        m_relativeTime: 0
+      - m_macId:
+          m_macAddress: 98:D3:51:F9:4A:26
+        m_pinIndex: 9
+        m_relativeTime: 0
+      - m_macId:
+          m_macAddress: 98:D3:71:F9:7B:44
+        m_pinIndex: 0
+        m_relativeTime: 5
+      - m_macId:
+          m_macAddress: 98:D3:71:F9:7B:44
+        m_pinIndex: 3
+        m_relativeTime: 5
+    - m_oneWordName: 4 Weirdo
+      m_description: Laucnh Border Rocket
+      m_actions:
+      - m_macId:
+          m_macAddress: 98:D3:71:F9:7B:44
+        m_pinIndex: 3
+        m_relativeTime: 0
+      - m_macId:
+          m_macAddress: 98:D3:71:F9:7B:44
+        m_pinIndex: 1
+        m_relativeTime: 3
+      - m_macId:
+          m_macAddress: 98:D3:71:F9:7B:44
+        m_pinIndex: 0
+        m_relativeTime: 6
+      - m_macId:
+          m_macAddress: 98:D3:71:F9:7B:44
+        m_pinIndex: 2
+        m_relativeTime: 9
